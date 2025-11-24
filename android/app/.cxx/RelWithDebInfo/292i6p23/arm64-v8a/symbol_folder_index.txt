@@ -1,0 +1,1 @@
+/Users/macbookpro/Desktop/adhkar/android/app/build/intermediates/cxx/RelWithDebInfo/292i6p23/obj/arm64-v8a

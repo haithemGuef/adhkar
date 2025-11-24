@@ -1,0 +1,2 @@
+/Users/macbookpro/Desktop/fresh-dz-frontend-super-master/android/app/.cxx/RelWithDebInfo/6q556v4i/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/macbookpro/Desktop/fresh-dz-frontend-super-master/android/app/.cxx/RelWithDebInfo/6q556v4i/armeabi-v7a/CMakeFiles/rebuild_cache.dir

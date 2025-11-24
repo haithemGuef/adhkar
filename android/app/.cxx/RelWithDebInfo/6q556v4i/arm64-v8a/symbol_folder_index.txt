@@ -1,0 +1,1 @@
+/Users/macbookpro/Desktop/fresh-dz-frontend-super-master/build/app/intermediates/cxx/RelWithDebInfo/6q556v4i/obj/arm64-v8a

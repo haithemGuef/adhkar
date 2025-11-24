@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        // Use a compatible Android Gradle Plugin version
+        // classpath 'com.android.tools.build:gradle:8.3.2'
+         classpath 'com.android.tools.build:gradle:8.6.0'
+
+        // Update google-services plugin to the latest version
+        // classpath 'com.google.gms:google-services:4.4.2'
+
+        // Ensure Kotlin plugin version matches your AGP compatibility
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+// Define a custom root project build directory for all modules
+rootProject.buildDir = "../build"
+
+// Set subproject build directories under the root project's build directory
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(":app")
+}
+
+// Task to clean the build directory
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

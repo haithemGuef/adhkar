@@ -1,0 +1,2 @@
+/Users/macbookpro/Desktop/adhkar/android/app/.cxx/RelWithDebInfo/292i6p23/x86/CMakeFiles/edit_cache.dir
+/Users/macbookpro/Desktop/adhkar/android/app/.cxx/RelWithDebInfo/292i6p23/x86/CMakeFiles/rebuild_cache.dir
